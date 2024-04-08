@@ -21,6 +21,12 @@ Use it like <st:adjunct includes="org.biouno.unochoice.stapler.unochoice"/>
     flex-direction: column;
     align-items: flex-start;
   }
+
+  .select-field-arrow {
+      appearance: auto;
+      moz-appearance: auto;
+      -webkit-appearance: auto
+  }
   </style>
   <script src="${it.packageUrl}/unochoice/UnoChoice.js" type="text/javascript" />
 </j:jelly>
